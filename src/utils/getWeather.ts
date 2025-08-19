@@ -2,14 +2,14 @@ import { weatherApiAxios } from '@/configs/weatherapiAxios'
 import forecastData from '@/constants/forecast.json'
 import citiesData from '@/constants/cities.json'
 
-const enApi: Boolean = Boolean(Number(process.env.ENAPI))
+const enApi: Boolean = Boolean(Number(process.env.NEXT_PUBLIC_ENAPI))
 
 export const getCities = async (query: string) => {
 	let cities: City[]
 
 	if (enApi) {
 		const params = {
-			key: process.env.WEATHERAPI_APIKEY,
+			key: process.env.NEXT_PUBLIC_WEATHERAPI_APIKEY,
 			q: query,
 		}
 		cities = await weatherApiAxios
@@ -28,7 +28,7 @@ export const getWeather = async (query: string) => {
 
 	if (enApi) {
 		const params = {
-			key: process.env.WEATHERAPI_APIKEY,
+			key: process.env.NEXT_PUBLIC_WEATHERAPI_APIKEY,
 			q: query,
 			aqi: 'yes',
 			days: 3,
@@ -49,7 +49,7 @@ export const getLocation = async (loc: Loc) => {
 
 	if (enApi) {
 		const params = {
-			key: process.env.WEATHERAPI_APIKEY,
+			key: process.env.NEXT_PUBLIC_WEATHERAPI_APIKEY,
 			q: `${loc.lat},${loc.lon}`,
 		}
 		weather = await weatherApiAxios
