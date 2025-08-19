@@ -6,13 +6,12 @@ const UnitSwitcher = () => {
 
 	return (
 		<button
-			className="w-[3rem] h-[1.5rem] flex-center ring-1 ring-white rounded-full"
+			className="w-[3rem] h-[1.5rem] flex-center ring-1 ring-white rounded-full cursor-pointer"
 			onClick={toggleUnit}
 		>
 			<div
-				className={`w-[1.5rem] h-[1.5rem] bg-white rounded-full border-[2px] border-bgColor flex-center text-[0.8em] font-bold text-bgColor duration-300 ${
-					isC ? 'translate-x-[-50%]' : 'translate-x-[50%]'
-				}`}
+				className={`w-[1.5rem] h-[1.5rem] bg-white rounded-full border-[2px] border-bgColor flex-center text-[0.8em] font-bold text-bgColor duration-300 ${isC ? 'translate-x-[-50%]' : 'translate-x-[50%]'
+					}`}
 			>
 				<span>&deg;{isC ? 'C' : 'F'}</span>
 			</div>
