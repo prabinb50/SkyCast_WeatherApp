@@ -40,6 +40,6 @@ next-env.d.ts
 *.bat
 
 # add the .env.local file
-.env.local
+# .env.local
 
 /node_modules
