@@ -1,5 +1,5 @@
 'use client'
-import { RefObject, useEffect, useRef, useState } from 'react'
+import { useEffect, useRef } from 'react'
 import {
 	MapContainer,
 	Marker,
