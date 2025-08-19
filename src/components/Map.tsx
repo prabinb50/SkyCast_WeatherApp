@@ -105,17 +105,6 @@ const Map = ({ isDark, enSelect, loc, weatherData, handleLoc }: Props) => {
 				}
 				attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a>'
 			/>
-
-			{/* <TileLayer
-				url={
-					isDark
-						? 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png'
-						: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
-				}
-				// attribution='&copy; <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>'
-				attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a>'
-			/> */}
-
 			<Recenter loc={loc} />
 			<MarkerComp weatherData={weatherData} loc={loc} />
 			{enSelect && handleLoc && <MovingMarker handleLoc={handleLoc} />}
