@@ -8,8 +8,8 @@ import { Footer } from '@/containers'
 export const metadata: Metadata = {
 	title: 'SkyCast',
 	description: 'Know the Weather of Anywhere',
-	authors: [{ name: 'Ariyan Molazem', url: 'https://ariyanmolazem.ir' }],
-	creator: 'Ariyan Molazem',
+	authors: [{ name: 'Prabin Joshi', url: 'https://github.com/prabinb50' }],
+	creator: 'Prabin Joshi',
 	applicationName: 'SkyCast',
 	keywords: ['weather app', 'next.js', 'weather api', 'forecast weather app'],
 }

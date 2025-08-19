@@ -4,10 +4,10 @@ const Footer = () => {
 			<p className="text-[0.8rem]">Designed and developed by</p>
 			<a
 				className="text-[1rem]"
-				href="http://github.com/AriyanMLZM"
+				href="https://github.com/prabinb50"
 				target="_blank"
 			>
-				@AriyanMolazem
+				@Prabin Joshi
 			</a>
 		</section>
 	)

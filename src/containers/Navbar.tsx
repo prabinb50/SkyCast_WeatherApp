@@ -18,7 +18,7 @@ const Navbar = () => {
 			</div>
 			<div className="w-3/10 sm:w-1/4 flex items-center justify-end gap-[0.9rem]">
 				<UnitSwitcher />
-				<a target="_blank" href="https://github.com/AriyanMLZM">
+				<a target="_blank" href="https://github.com/prabinb50">
 					<IconGithub className="text-white text-[30px]" />
 				</a>
 			</div>
