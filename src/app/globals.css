@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import 'tailwindcss';
+
+@theme {
+	--color-bgColor: #0a0a0a;
+}
+
+@layer base {
+	html {
+		@apply text-[16px]
+		sm:text-[17px] 
+		md:text-[20px]
+		font-[Poppins]
+		text-white
+		bg-bgColor;
+	}
+}
+
+@layer components {
+	.t-input {
+		@apply pr-[25px]
+		pl-[10px] 
+		py-[5px] 
+		ring-[0.5px]
+		ring-white 
+		rounded-[10px] 
+		focus:outline-none
+		w-full
+		text-[0.7rem]
+		text-white;
+	}
+}
+
+@layer utilities {
+	.flex-center {
+		@apply flex
+		justify-center
+		items-center;
+	}
+	.page-center {
+		@apply absolute
+		left-[50%]
+		top-[50%]
+		translate-y-[-50%]
+		translate-x-[-50%];
+	}
+}
+
+/* Hide scrollbar but keep functionality */
+.hide-scrollbar {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+	display: none; /* Chrome, Safari and Opera */
+}

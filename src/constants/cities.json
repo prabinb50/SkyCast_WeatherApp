@@ -1,0 +1,47 @@
+[
+	{
+		"id": 1254701,
+		"name": "Shiraz",
+		"region": "Fars",
+		"country": "Iran",
+		"lat": 29.6,
+		"lon": 52.54,
+		"url": "shiraz-fars-iran"
+	},
+	{
+		"id": 1254957,
+		"name": "Shirvan",
+		"region": "Khorasan",
+		"country": "Iran",
+		"lat": 37.4,
+		"lon": 57.93,
+		"url": "shirvan-khorasan-iran"
+	},
+	{
+		"id": 3131195,
+		"name": "Shiroi",
+		"region": "Chiba",
+		"country": "Japan",
+		"lat": 35.8,
+		"lon": 140.07,
+		"url": "shiroi-chiba-japan"
+	},
+	{
+		"id": 2619887,
+		"name": "Shirley",
+		"region": "New York",
+		"country": "United States of America",
+		"lat": 40.8,
+		"lon": -72.87,
+		"url": "shirley-new-york-united-states-of-america"
+	},
+	{
+		"id": 3132957,
+		"name": "Shiraoi",
+		"region": "Hokkaido",
+		"country": "Japan",
+		"lat": 42.55,
+		"lon": 141.35,
+		"url": "shiraoi-hokkaido-japan"
+	}
+]
